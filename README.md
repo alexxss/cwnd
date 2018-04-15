@@ -29,7 +29,7 @@ Loss rate:3.61%
 Running Newreno...
 Throughput: 0.874Mbps
 Packets sent:289, Received:274
-oss rate:5.19%
+Loss rate:5.19%
 Running Sack1...
 Throughput: 0.920Mbps
 Packets sent:303, Received:288

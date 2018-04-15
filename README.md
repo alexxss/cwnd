@@ -14,21 +14,23 @@ all.sh
 
 example:
 $ ./all.sh
-Clearing output files...
-Running Tahoe...
-Throughput: 0.824Mbps
-Packets sent:270, Received:258
-Loss rate:4.44%
-Running Reno...
-Throughput: 0.765Mbps
-Packets sent:249, Received:240
-Loss rate:3.61%
-Running Newreno...
-Throughput: 0.874Mbps
-Packets sent:289, Received:274
-Loss rate:5.19%
-Running Sack1...
-Throughput: 0.920Mbps
-Packets sent:303, Received:288
-Loss rate:4.95%
+>Clearing output files...
+>Running Tahoe...
+>Throughput: 0.824Mbps
+>Packets sent:270, Received:258
+>Loss rate:4.44%
+>Running Reno...
+>Throughput: 0.765Mbps
+>Packets sent:249, Received:240
+>Loss rate:3.61%
+>Running Newreno...
+>Throughput: 0.874Mbps
+>Packets sent:289, Received:274
+>Loss rate:5.19%
+>Running Sack1...
+>Throughput: 0.920Mbps
+>Packets sent:303, Received:288
+>Loss rate:4.95%
 
+see './pic/' for more example
+edit simple.tcl to obtain different results

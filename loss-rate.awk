@@ -3,6 +3,7 @@ BEGIN {
 	#程式初始化,設定一變數記錄packet被drop的數目
 	packetSent = 0;
 	packetReceived = 0;
+	lostPkt = 0;
 }
 {
 	action=$1;
@@ -16,6 +17,8 @@ BEGIN {
 	dst=$10;
 	seq_no=$11;
 	packet_id=$12;
+	
+	if(action=="d") lostPkt++;
 
 	#統計從n1+n3送出多少packets
 	if (from==0 && action == "+")
@@ -26,4 +29,6 @@ BEGIN {
 }
 END {
 	printf("Packets sent:%d, Received:%d\nLoss rate:%.2f%%\n", packetSent, packetReceived, (packetSent-packetReceived)/packetSent*100);
+	printf("Packets sent:%d, Lost:%d\nLoss rate: %.2f%%\n",packetSent, lostPkt,lostPkt/packetSent*100);
+
 }

@@ -1,10 +1,10 @@
 Developed on Centos7, ns-2.35
 
 clear.sh
--clears all output files: \*.txt, \*.tr, \*.nam
+* clears all output files: \*.txt, \*.tr, \*.nam
 
 run.sh
--runs simple.tcl,throughput.awk,loss-rate.awk,fack.awk,pktnum.awk,plots cwnd,plots pktnum
+*runs simple.tcl,throughput.awk,loss-rate.awk,fack.awk,pktnum.awk,plots cwnd,plots pktnum
 -takes 0 or 1 parameters
 -parameter 1: mode, which can be "Tahoe","Reno","Newreno","Sack1"
 -parameter 1: case-sensitive

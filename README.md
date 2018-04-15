@@ -1,7 +1,7 @@
 Developed on Centos7, ns-2.35
 
 clear.sh
-* clears all output files: \*.txt, \*.tr, \*.nam
+- clears all output files: \*.txt, \*.tr, \*.nam
 
 run.sh
 *runs simple.tcl,throughput.awk,loss-rate.awk,fack.awk,pktnum.awk,plots cwnd,plots pktnum

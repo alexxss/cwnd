@@ -4,15 +4,15 @@ clear.sh
 - clears all output files: \*.txt, \*.tr, \*.nam
 
 run.sh
-*runs simple.tcl,throughput.awk,loss-rate.awk,fack.awk,pktnum.awk,plots cwnd,plots pktnum
--takes 0 or 1 parameters
--parameter 1: mode, which can be "Tahoe","Reno","Newreno","Sack1"
--parameter 1: case-sensitive
--if there is no parameter, the default is "Tahoe"
+- runs simple.tcl,throughput.awk,loss-rate.awk,fack.awk,pktnum.awk,plots cwnd,plots pktnum
+- takes 0 or 1 parameters
+- parameter 1: mode, which can be "Tahoe","Reno","Newreno","Sack1"
+- parameter 1: case-sensitive
+- if there is no parameter, the default is "Tahoe"
 
 all.sh
--does not take parameters
--executes everything in every mode
+- does not take parameters
+- executes everything in every mode
 
 example:
 ```
@@ -37,4 +37,5 @@ Loss rate:4.95%
 ```
 
 see './pic/' for more example
+
 ~~im too lazy to rename the pics~~

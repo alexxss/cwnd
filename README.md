@@ -1,6 +1,7 @@
 Developed on Centos7, ns-2.35
 
 clear.sh
+
 -clears all output files: \*.txt, \*.tr, \*.nam
 
 run.sh

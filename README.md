@@ -1,3 +1,5 @@
+Developed on Centos7, ns-2.35
+
 clear.sh
 -clears all output files: \*.txt, \*.tr, \*.nam
 
@@ -35,3 +37,4 @@ Loss rate:4.95%
 ```
 
 see './pic/' for more example
+~~im too lazy to rename the pics~~

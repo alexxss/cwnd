@@ -35,4 +35,3 @@ Loss rate:4.95%
 ```
 
 see './pic/' for more example
-edit simple.tcl to obtain different results
